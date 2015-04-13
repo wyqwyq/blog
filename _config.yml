@@ -3,4 +3,4 @@ baseurl: /blog
 markdown: redcarpet
 safe: false
 pygments: true
-title: Algorithm Problems
+title: Blog
