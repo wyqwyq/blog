@@ -34,11 +34,9 @@ The second line contains N integers, each number prepresenting the radius of a d
 Output the maximum possible number of disks can be put into the storage.
 
 ####样例输入
-```c++
-5 1 10 3
+`5 1 10 3`
 
-1 3 4 5 10
-```
+`1 3 4 5 10`
 ####样例输出
 `4`
 
@@ -50,7 +48,7 @@ a<sub>0</sub>, a<sub>1</sub>, ... , a<sub>k</sub>, ..., a<sub>N-1</sub>自底向
 
 
 根据以上限制条件，很容易写出如下代码：
-```c++
+```cpp
 	#include<iostream>
 	#include<vector>
 	#include<algorithm>
@@ -92,5 +90,5 @@ a<sub>0</sub>, a<sub>1</sub>, ... , a<sub>k</sub>, ..., a<sub>N-1</sub>自底向
 		}
 		ret = min(ret, H);
 	}
-```
 
+```
