@@ -1,6 +1,6 @@
 ---
 layout: default
-title: hihoCoder #1100 : Disk Storage（微软苏州校招笔试 1月3日）
+title: hihoCoder 1100 Disk Storage（微软苏州校招笔试 1月3日）
 comments: true
 ---
 
@@ -48,6 +48,7 @@ a<sub>0</sub>, a<sub>1</sub>, ... , a<sub>k</sub>, ..., a<sub>N-1</sub>自底向
 
 
 根据以上限制条件，很容易写出如下代码：
+
 ```cpp
 	#include<iostream>
 	#include<vector>
