@@ -29,10 +29,8 @@ The maximum number of balls in the box ever.
 ###提示
 Another Sample
 
-| Sample Input  | Sample Output |
-| ------------- |---------------|
-| 0 0 0         |      4        |
-| RBYRRBY       |               |
+<table "><tbody><tr><td>Sample Input</td><td>Sample Output</td></tr><tr><td>0 0 0<br />RBYRRBY &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td><td>4<br /><br /></td></tr></tbody></table>
+
 
 ###样例输入
 `1 2 3`
