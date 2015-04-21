@@ -13,6 +13,8 @@ comments: true
 ###描述
 ![](http://media.hihocoder.com//problem_images/20150103/14202824928356.png)
 
+[原题连接](http://hihocoder.com/problemset/problem/1100)
+
 Little Hi and Little Ho have a disk storage. The storage's shape is a truncated cone of height H. R+H is radius of top circle and R is radius of base circle. 
 
 Little Ho buys N disks today. Every disk is a cylinder of height 1. Little Ho wants to put these disk into the storage under below constraints:
@@ -44,7 +46,7 @@ Output the maximum possible number of disks can be put into the storage.
 ###Solution
 构造法。
 关键是注意到，当最多能叠放N个disk时，一定可以重新调整成如下形式（这点可以用反证法证明）：
-a<sub>0</sub>, a<sub>1</sub>, ... , a<sub>k</sub>, ..., a<sub>N-1</sub>自底向上叠放，其中N <= H，a<sub>0</sub> <= a<sub>1</sub> <= ...  *<=* **a<sub>k</sub>** *>=*  a<sub>k+1</sub> >= ... >= a<sub>N-1</sub>, 同时 a<sub>0</sub> <= R且对 0 <= i <= N-1，有 a<sub>i</sub> <= R + i。
+a<sub>0</sub>, a<sub>1</sub>, ... , a<sub>k</sub>, ..., a<sub>N-1</sub>自底向上叠放，其中N <= H，a<sub>0</sub> <= a<sub>1</sub> <= ...  *<=* **a<sub>k</sub>** *>=*  a<sub>k+1</sub> >= ... >= a<sub>N-1</sub>, 同时 a<sub>0</sub> <= R且对 0 <= i <= N-1，有 a<sub>i</sub> <= R + i和对 1 <= i <= N-1， a<sub>i</sub> - a<sub>i-1</sub> <= M。
 
 
 根据以上限制条件，很容易写出如下代码：
