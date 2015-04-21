@@ -34,6 +34,7 @@ Another Sample
 
 ###样例输入
 `1 2 3`
+
 `RRYBRBRYBRY`
 ###样例输出
 `7`
